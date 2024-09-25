@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SerraFlix</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Nave Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <h1>SERRAFLIX</h1>
+            <img src="logo.png.png" alt="Logo do Site" class="logo">
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#newsletter">Assine Agora</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Subtítulo -->
+    <section class="subtitulo">
+        <h2>Filmes, séries e muito mais, sem limites!</h2>
+    </section>
+
+    <!-- Sessão de Cards com Links Externos -->
+    <section id="noticias" class="cards-section">
+        <h3>Fique por dentro do mundo do entretenimento!</h3>
+        <div class="cards-container">
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/81EK4l7881L._AC_UF1000,1000_QL80_.jpg" alt="Friends">
+                <a href="https://www.cnnbrasil.com.br/entretenimento/friends-conheca-os-10-episodios-mais-bem-avaliados-da-serie/"
+                    target="_blank">Conheça os 10 episódios mais bem-avaliados da série Friends</a>
+            </div>
+            <div class="card">
+                <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/AF2DA466E18C622AB31B75128E0E1E208CD501A5544A8808AF5FB7869AB9454E/scale?width=506&aspectRatio=2.00&format=webp"
+                    alt="Modern Family">
+                <a href="https://www.cnnbrasil.com.br/entretenimento/elenco-de-modern-family-se-reencontra-apos-termino-de-serie/"
+                    target="_blank">O reencontro? Elenco de Modern Family se reúne pela primeira vez após término da série</a>
+            </div>
+            <div class="card">
+                <img src="https://br.web.img3.acsta.net/pictures/18/05/18/17/41/1920222.jpg" alt="Greys Anatomy">
+                <a href="https://www.cnnbrasil.com.br/entretenimento/greys-anatomy-teste-seus-conhecimentos-sobre-a-serie/" target="_blank">Formado em Greys Anatomy? Teste seus conhecimentos sobre a série</a>
+            </div>
+            <div class="card">
+                <img src="https://media.fstatic.com/jvANoKd41yFDYSzGSfDlvkM5MNI=/322x478/smart/filters:format(webp)/media/movies/covers/2010/12/960859aae563d1ba36149cfd83d60fcb.jpg"
+                    alt="Um maluco no pedaço">
+                <a href="https://www.cnnbrasil.com.br/entretenimento/um-maluco-no-pedaco-completa-30-anos-com-especial-remake-e-mansao-no-airbnb/"
+                    target="_blank">Um Maluco no Pedaço completa 30 anos e ganha remake</a>
+            </div>
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/pt/d/db/How_to_Get_Away_with_Murder_Temporada_2_Poster.jpg"
+                    alt="how to get away">
+                <a href="https://www.cnnbrasil.com.br/entretenimento/viola-davis-alcanca-o-egot-com-premiacao-no-grammy-entenda-o-que-significa/"
+                    target="_blank">Protagonista de How to get away with Murder ganha Emmy por seu papel na série</a>
+            </div>
+            <div class="card">
+                <img src="https://media.fstatic.com/sno4F1HxQWCKYOjhD5lQTthNAEg=/322x478/smart/filters:format(webp)/media/movies/covers/2020/05/19214.jpg"
+                    alt="The chosen">
+                <a href="https://www.cnnbrasil.com.br/entretenimento/netflix-prime-video-max-disney-appletv-o-que-chega-aos-streamings-em-julho/"
+                    target="_blank">The Chosen chega nos streamings, saiba data de estreia</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sessão Sobre Mim -->
+    <section id="sobre" class="sobre-section">
+        <h3>Sobre o desenvolvedor</h3>
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQELs1EkdwcXRQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1708953855411?e=1732752000&v=beta&t=Aqhxo688Ako2bvqq0dQq-eSgYipQ-DdZcrm-IZ_NqMI"
+            alt="Minha Foto" class="minha-foto">
+        <p>Me chamo Geovane Rosa, sou formado em Direito pelo Centro Universitário Serra dos Órgãos - UNIFESO.
+            Recentemente descobri uma paixão pela tecnologia e decidi fazer uma transição de carreira. Atualmente estou
+            como Residente FullStack no SerraTec, com foco em desenvolvimento de sistemas web. </p>
+    </section>
+
+    <!-- Sessão Newsletter -->
+    <section id="newsletter" class="newsletter-section">
+        <h3>Assine nossa Newsletter para não perder nenhuma estreia!</h3>
+        <form action="enviar_newsletter.php" method="POST">
+            <input type="text" name="nome" placeholder="Seu Nome" required>
+            <input type="email" name="email" placeholder="Seu Email" required>
+            <label>
+                <input type="checkbox" name="deseja_receber" value="sim">Deseja receber nossos emails?
+            </label>
+            <button type="submit">Assinar</button>
+        </form>
+        </style>
+    </section>
+
+    <!-- Rodapé -->
+<footer class="footer">
+    <p>Desenvolvido por: <a href="https://github.com/geovanerosa"
+        target="_blank">Geovane Rosa</a></p>Residência em TIC Software 2024.2 - Turma 21
+
+    <ul>
+        <li><a href="https://www.linkedin.com/in/geovane-rosa-8779391b6/" target="_blank">
+            <img src="https://i.pinimg.com/564x/0c/54/79/0c5479e1eeca3d119c2f9bbb90ce80a6.jpg" alt="LinkedIn" class="social-icon">
+        </a></li>
+        <li><a href="https://www.instagram.com/ggeovanerosa/profilecard/?igsh=MmUyMWZ5cm9kdndi" target="_blank">
+            <img src="https://img.icons8.com/m_outlined/200/FFFFFF/instagram-new.png" alt="Instagram" class="social-icon">
+        </a></li>
+        <li><a href="https://facebook.com" target="_blank">
+            <img src="https://img.icons8.com/ios11/200/FFFFFF/facebook-f.png" alt="Facebook" class="social-icon">
+        </a></li>
+    </ul>
+</footer>
+
+</body>
+
+</html>
