@@ -1,10 +1,8 @@
-function hasJavascriptSkill(habilidades) {
+function possuiHabilidadeJavascript(habilidades) {
     return habilidades.includes("Javascript");
 }
 
+// Exemplo de uso:
+const habilidades = ["HTML", "CSS", "Java", "Javascript"];
+console.log(possuiHabilidadeJavascript(habilidades)); // true
 
-const skills = ["HTML", "CSS", "Javascript", "React"];
-console.log(hasJavascriptSkill(skills));
-
-const otherSkills = ["Python", "C++", "Ruby"];
-console.log(hasJavascriptSkill(otherSkills));
